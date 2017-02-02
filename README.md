@@ -1,4 +1,4 @@
-## Serveralerts
+# Serveralerts
 
 Serveralerts is a script I wrote to help me manage a number of caching servers.
 
@@ -7,7 +7,7 @@ configured in the Alerts DB of Server.app
 
 So this tool interacts with that database, and creates it if needed.
 
-# Usage
+## Usage
 
 ```
 # ./serveralerts.py 
@@ -24,7 +24,7 @@ Options:
                         arg1
 ```
 
-# Examples
+## Examples
 ```
 ./serveralerts.py --add john@pretendco.com
 
@@ -32,5 +32,5 @@ Options:
 ```
 
 
-# Requirements
+## Requirements
 Server.app 5.1.5 or higher.
